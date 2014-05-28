@@ -1,0 +1,39 @@
+@font-face 
+{
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src : url(font.woff);
+}
+
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src : url(hand2.woff);
+}
+
+#container
+{
+ position : relative;
+ top : 27%;
+ left : 10%;
+ width : 55%;
+ font-size : 25px;
+ font-family: 'Alegreya Sans', sans-serif;
+ z-index : 1000;
+ float : left;
+ margin-top : 100px;
+ margin-bottom : 100px;
+ }
+ 
+ #container>a
+ {
+  text-decoration:none;
+  color : black;
+ }
+ 
+ #container>a:hover
+ {
+ font-weight : bold;
+ }

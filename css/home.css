@@ -1,0 +1,39 @@
+body
+{
+ background-color:black;
+}
+@font-face 
+{
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src : url(font.woff);
+}
+
+#container
+{
+ position : absolute;
+ top :350px;
+ left : 50px;
+ width : 700px;
+ font-size : 22px;
+ font-family: 'Alegreya Sans', sans-serif;
+ z-index : 1000;
+ float : left;
+ background-color : black;
+ color : white;
+ opacity : 0.6;
+ padding  : 15px;
+ }
+ 
+ #fblogo
+ {
+  font-size : 25px;
+ font-family: 'Alegreya Sans', sans-serif;
+ z-index : 1000;
+  position  : absolute;
+  bottom : 20px;
+  right : 20px;
+ color : white;
+ padding  : 5px;
+ }

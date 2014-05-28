@@ -1,0 +1,7 @@
+
+/* For generic page styles. Not for sliders. */
+
+.div1, .div2 {width:820px;margin:0 auto;}
+.div2 {margin-top:70px;}
+.div2 li {padding-top:6px;padding-bottom:6px;}
+.floatLeft {float:left;}

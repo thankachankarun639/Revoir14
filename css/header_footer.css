@@ -1,0 +1,188 @@
+body
+{
+ margin : 0px;
+ padding : 0xp;
+ width : 100%;
+ background-image: url("../img/background.jpg");
+}
+
+@font-face 
+{
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src : url(font.woff);
+}
+
+@font-face 
+{
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src : url(hand2.woff);
+}
+
+#header
+{
+ height : 100px;
+ background-color : black;
+ box-shadow : 0px 1px 15px black; 
+ z-index : 1000;
+}
+
+#header_cont
+{
+ width : 730px;
+ margin : 0px auto;
+ position : absolute;
+ left : 550px;
+ top : 0px;
+ border : 1px solid black;
+ background-color : black;
+}
+
+#dropdown_content
+{
+ width : 210px;
+ height : 240px;
+ padding : 5px;
+ margin : 0px auto;
+ background-color:black;
+ position :absolute;
+ left : 500px;
+ top : 90px;
+ z-index : 100000;
+ box-shadow : 0px 1px 15px black;
+}
+
+#header_cont > a,#dropdown>a, #dropdown_content>a
+{
+ text-decoration : none;
+ color : white;
+ font-size : 22px;
+ font-family: 'Alegreya Sans', sans-serif;
+ display:block;
+ float :left;
+ padding :25px;
+ margin : 0px auto;
+ background-color : black;
+ }
+#header_cont>a, #dropdown>a
+{
+ background-color:black;
+ padding-top : 46px;
+}
+#dropdown>a
+{
+ padding-right:45px;
+}
+ #dropdown_content>a
+ {
+  padding : 10px;
+   margin : 0px auto;
+   width : 85%;
+ }
+a:hover
+{
+ font-weight:bold;
+}
+a
+{
+  text-decoration : none;
+  color : white;
+ }
+
+#footer
+{
+ height : 50px;
+ background-color : black;
+ width : 100%;
+ position : fixed;
+ bottom:0px;
+ z-index : 10000;
+}
+#footer_cont
+{
+ width : 420px;
+ margin : 0px auto;
+ position : fixed;
+ bottom : 10px;
+ left : 100px;
+ font-family: 'Alegreya Sans', sans-serif;
+ font-size : 18px;
+ color : white;
+ z-index : 1000;
+ }
+#footer_link
+{
+ position:absolute;
+ bottom : 12px;
+ right : 80px;
+}
+#footer>a,#footer_link>a
+{
+ display:block;
+ float : left;
+ color:white;
+ text-decoration:none;
+ font-size : 22px;
+ font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+
+#title
+{
+ font-family: 'Architects Daughter', cursive;
+ font-size : 50px;
+ color : white;
+ float : left;
+ position : relative;
+ top : 10px;
+ left : 200px;
+ z-index : 10000;
+}
+
+#date
+{
+ position:relative;
+ top : 5px;
+ left : 70px;
+ z-index :500;
+ color : white;
+ font-size : 19px;
+ font-family: 'Architects Daughter', cursive;
+ float : left;
+}
+
+#event_logo
+{
+ position : absolute;
+ top : 10px;
+ left :10px;
+ float:left;
+ z-index : 1000;
+}
+#inst_logo
+{
+ position : relative;
+ left : 23px;
+}
+#fb_logo
+{
+ position : absolute;
+ bottom : -4px;
+ right : 10px;
+}
+#csea_logo
+{
+ position : absolute;
+ bottom : -6px;
+ right : 10px;
+}
+#pay_logo
+{
+ position : absolute;
+ bottom : -2px;
+ right : 80px;
+}
